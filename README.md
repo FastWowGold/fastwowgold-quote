@@ -1,5 +1,8 @@
 # @fastwowgold/quote
 
+[![npm version](https://img.shields.io/npm/v/@fastwowgold/quote)](https://www.npmjs.com/package/@fastwowgold/quote)
+[![license](https://img.shields.io/npm/l/@fastwowgold/quote)](LICENSE)
+
 Tiny, zero-dependency client for [FastWoWGold](https://fastwowgold.com)'s public price quote API,
 plus helpers for WoW gold / silver / copper amounts. Works in Node 18+ and browsers.
 
