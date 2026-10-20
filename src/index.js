@@ -1,4 +1,4 @@
-// fastwowgold-quote: client for FastWoWGold's public, read-only price quote API, plus gold helpers.
+// @fastwowgold/quote: client for FastWoWGold's public, read-only price quote API, plus gold helpers.
 // Zero dependencies; needs a global fetch (Node 18+, browsers, Deno, Bun).
 
 const DEFAULT_BASE_URL = 'https://fastwowgold.com';

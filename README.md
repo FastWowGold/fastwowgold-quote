@@ -1,16 +1,16 @@
-# fastwowgold-quote
+# @fastwowgold/quote
 
 Tiny, zero-dependency client for [FastWoWGold](https://fastwowgold.com)'s public price quote API,
 plus helpers for WoW gold / silver / copper amounts. Works in Node 18+ and browsers.
 
 ```bash
-npm install fastwowgold-quote
+npm install @fastwowgold/quote
 ```
 
 ## Get a live quote
 
 ```js
-import { createClient, buyUrl } from 'fastwowgold-quote';
+import { createClient, buyUrl } from '@fastwowgold/quote';
 
 const client = createClient();                       // defaults to https://fastwowgold.com
 const { games } = await client.getCatalog();
@@ -32,7 +32,7 @@ Quotes are **indicative**; the final price is confirmed at checkout. The API is 
 ## Gold helpers
 
 ```js
-import { parseGold, formatGold, afterAuctionCut } from 'fastwowgold-quote';
+import { parseGold, formatGold, afterAuctionCut } from '@fastwowgold/quote';
 
 parseGold('12g 34s 56c');        // 123456 (copper; 1g = 100s = 10,000c)
 formatGold(123456);              // "12g 34s 56c"
