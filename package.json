@@ -1,0 +1,44 @@
+{
+  "name": "fastwowgold-quote",
+  "version": "0.1.0",
+  "description": "Tiny client for FastWoWGold's public price quote API, plus WoW gold/silver/copper helpers. Zero dependencies.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "wow",
+    "world-of-warcraft",
+    "gold",
+    "price",
+    "quote",
+    "calculator",
+    "game-currency",
+    "fastwowgold"
+  ],
+  "homepage": "https://fastwowgold.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FastWowGold/fastwowgold-quote.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FastWowGold/fastwowgold-quote/issues"
+  }
+}
